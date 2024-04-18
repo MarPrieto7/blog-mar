@@ -207,6 +207,8 @@ const handleSignout = async () =>{
     <span onClick={()=>setShowModal(true)} className=' cursor-pointer'>Delete Acount</span>
     <span onClick={handleSignout} className=' cursor-pointer'>Sign Out</span>
   </div>
+
+  
 {updateUserSuccess && (
   <Alert color='success' className= 'me-5'>
     {updateUserSuccess}
