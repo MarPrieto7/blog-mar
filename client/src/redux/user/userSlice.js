@@ -72,3 +72,4 @@ const initialState = {
   } = userSlice.actions;
   
   export default userSlice.reducer;
+  
