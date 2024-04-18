@@ -133,7 +133,7 @@ export default function DashProfile() {
       setUpdateUserError(error.message);
     }
   };
-  
+
   const handleDeleteUser = async () => {
     setShowModal(false);
     try {
@@ -279,6 +279,7 @@ export default function DashProfile() {
           {error}
         </Alert>
       )}
+      
       <Modal
         show={showModal}
         onClose={() => setShowModal(false)}
