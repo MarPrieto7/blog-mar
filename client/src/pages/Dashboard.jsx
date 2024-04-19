@@ -28,11 +28,11 @@ export default function Dashboard() {
       {/* posts... */}
       {tab === 'posts' && <DashPosts />}
       {/* users */}
-      {tab === 'users' && <DashUsers />}
+      {/* {tab === 'users' && <DashUsers />}
       {/* comments  */}
       {tab === 'comments' && <DashComments />}
       {/* dashboard comp */}
-      {tab === 'dash' && <DashboardComp />}
+      {tab === 'dash' && <DashboardComp />} */}
     </div>
   );
 }

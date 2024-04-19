@@ -18,7 +18,8 @@ export default function DashSidebar() {
     const location = useLocation();
     const dispatch = useDispatch();
     const {currentUser} = useSelector(state => state.user);
-    const [tab, setTab] = useState('')
+    const [tab, setTab] = useState('');
+
     useEffect(() =>{
       const urlParams = new URLSearchParams(location.search)
       const tabFormUrl = urlParams.get('tab')
@@ -26,7 +27,6 @@ export default function DashSidebar() {
         setTab(tabFormUrl);
       }
     }, [location.search]);
-
     const handleSignout = async () =>{
       try {
         const res = await fetch('/api/user/signout', {
@@ -42,7 +42,6 @@ export default function DashSidebar() {
         console.log(error.message);
       }
     };
-
     return (
     <Sidebar className='w-full md:w-56'>
       <Sidebar.Items>
@@ -77,6 +76,7 @@ export default function DashSidebar() {
                 as='div'
               >
                 Posts
+
               </Sidebar.Item>
             </Link>
           )}
