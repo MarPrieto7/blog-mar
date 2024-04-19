@@ -13,8 +13,6 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { useNavigate } from 'react-router-dom';
 
-
-
 export default function CreatePost() {
   const [file, setFile] = useState(null);
   const [imageUploadProgress, setImageUploadProgress] = useState(null);
@@ -54,7 +52,7 @@ export default function CreatePost() {
           });
         }
       );
-      
+
     } catch (error) {
       setImageUploadError('Image upload failed');
       setImageUploadProgress(null);
@@ -86,8 +84,6 @@ export default function CreatePost() {
       setPublishError('Something went wrong');
     }
   };
-
-
     return (
         <div className='p-3 max-w-3xl mx-auto min-h-screen'>
           <h1 className='text-center text-3xl my-7 font-semibold'>Create a post</h1>
