@@ -12,7 +12,7 @@ export default function DashPosts() {
   const [showModal, setShowModal] = useState(false);
   const [postIdToDelete, setPostIdToDelete] = useState('');
 
-  
+
   useEffect(() => {
     const fetchPosts = async () => {
       try {
@@ -112,6 +112,7 @@ export default function DashPosts() {
                     </Link>
                   </Table.Cell>
                   <Table.Cell>{post.category}</Table.Cell>
+
                   <Table.Cell>
                     <span
                       onClick={() => {
@@ -123,6 +124,7 @@ export default function DashPosts() {
                       Delete
                     </span>
                   </Table.Cell>
+                  
                   <Table.Cell>
                     <Link
                       className='text-teal-500 hover:underline'
