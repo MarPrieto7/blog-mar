@@ -10,7 +10,7 @@ body {
     font-size: 1.05rem;
   }
 
-  /* .post-content p {
+  .post-content p {
     margin-bottom: 0.5rem;
   }
   
@@ -38,4 +38,4 @@ body {
   
   .dark .post-content a {
     color: red;
-  } */
+  }
