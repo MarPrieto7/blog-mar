@@ -44,7 +44,7 @@ export default function SignUp() {
         {/* left */}
         <div className='flex-1'>
           <Link to='/' className='font-bold dark:text-white text-4xl'>
-          <img src={logo} alt="Logo de Mamen" className='w-21 h-21' style={{ display: 'inline', verticalAlign: 'middle' }} />
+          <img src={logo} alt="Logo de Mar" className='w-21 h-21' style={{ display: 'inline', verticalAlign: 'middle' }} />
           </Link>
           <p className='text-sm mt-5'>
             This is a demo project. You can sign up with your email and password
