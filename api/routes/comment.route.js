@@ -19,3 +19,4 @@ router.delete('/deleteComment/:commentId', verifyToken, deleteComment);
 router.get('/getcomments', verifyToken, getcomments);
 
 export default router;
+
