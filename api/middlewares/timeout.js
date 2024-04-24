@@ -1,4 +1,4 @@
-import { rateLimit } from 'express-rate-limit'
+import { rateLimit } from 'express-rate-limit';
 
 //Uso la libreria rateLimit para definir la cantidad de intentos que se pueden hacer en el login
 export const limitLogin = rateLimit({
