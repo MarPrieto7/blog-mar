@@ -24,10 +24,6 @@ const Contact = () => {
     setErrors({ ...errors, [e.target.id]: '' });
   };
 
-  const handleHiddenFieldChange = (e) => {
-    setFormData({ ...formData, [e.target.id]: e.target.value });
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
   
@@ -48,22 +44,19 @@ const Contact = () => {
       formErrors.message = 'Message must be less than 400 characters';
     }
 
-    //validation hidden fields
-    const hiddenField1 = formData.hiddenField1.trim();
-    const hiddenField2 = formData.hiddenField2.trim();
-    if (hiddenField1 || hiddenField2) {
+    // Validation de campos ocultos
+    if (formData.hiddenField1.trim() || formData.hiddenField2.trim()) {
       setErrorMessage('Submission of hidden fields is not allowed');
       return;
     }
 
-    // validation form
+    // Validation de formularios
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
       return;
     }
 
-    // send form
-
+    // Envío de formulario
     setShowModal(true);
   };
 
@@ -120,8 +113,8 @@ const Contact = () => {
               error={errors.message}
             />
             {/* Campos ocultos */}
-              <input type="hidden" id="hiddenField1" name="hiddenField1" value={formData.hiddenField1} onChange={handleHiddenFieldChange} />
-              <input type="hidden" id="hiddenField2" name="hiddenField2" value={formData.hiddenField2} onChange={handleHiddenFieldChange} />
+            <input type="hidden" id="hiddenField1" name="hiddenField1" value={formData.hiddenField1} onChange={handleChange} />
+            <input type="hidden" id="hiddenField2" name="hiddenField2" value={formData.hiddenField2} onChange={handleChange} />
             <Button
               gradientDuoTone='purpleToPink'
               type='submit'
@@ -150,10 +143,18 @@ const Contact = () => {
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <p className="text-lg font-semibold mb-4">Thank you for contacting us!!</p>
             <p>We'll get back to you in a few strokes.</p>
-            <button onClick={() => setShowModal(false)} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none block mx-auto">Cerrar</button>
-          </div>
-        </div>
-      )}
+            <button
+        onClick={() => {
+          setShowModal(false);
+          window.location.href = '/';
+        }}
+        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none block mx-auto"
+      >
+        Cerrar
+      </button>
+    </div>
+  </div>
+)}
     </div>
   );
 };
