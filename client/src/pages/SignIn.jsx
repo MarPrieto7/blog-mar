@@ -14,7 +14,8 @@ export default function SignIn() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
   };
-  const handleSubmit = async (e) => {
+
+ const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.email || !formData.password) {
       return dispatch(signInFailure('Please fill all the fields'));
@@ -39,6 +40,7 @@ export default function SignIn() {
       dispatch(signInFailure(error.message));
     }
   };
+  
   return (
     <div className='min-h-screen mt-20'>
       <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>

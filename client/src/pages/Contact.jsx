@@ -52,7 +52,7 @@ const Contact = () => {
     const hiddenField1 = formData.hiddenField1.trim();
     const hiddenField2 = formData.hiddenField2.trim();
     if (hiddenField1 || hiddenField2) {
-      setErrorMessage('No se permite el envío de campos ocultos');
+      setErrorMessage('Submission of hidden fields is not allowed');
       return;
     }
 
