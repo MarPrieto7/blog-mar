@@ -11,8 +11,8 @@ const Contact = () => {
     name: '',
     subject: '',
     message: '',
-    hiddenField1: '', // Valor predeterminado para el campo oculto 1
-    hiddenField2: ''  // Valor predeterminado para el campo oculto 2
+    hiddenField1: '', 
+    hiddenField2: '' 
   });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
@@ -50,13 +50,10 @@ const Contact = () => {
       return;
     }
 
-    // Validation de formularios
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
       return;
     }
-
-    // Envío de formulario
     setShowModal(true);
   };
 
@@ -113,8 +110,8 @@ const Contact = () => {
               error={errors.message}
             />
             {/* Campos ocultos */}
-            <input type="hidden" id="hiddenField1" name="hiddenField1" value={formData.hiddenField1} onChange={handleChange} />
-            <input type="hidden" id="hiddenField2" name="hiddenField2" value={formData.hiddenField2} onChange={handleChange} />
+            <input className= "hidden" type="text" id="hiddenField1" name="hiddenField1" value={formData.hiddenField1} onChange={handleChange} />
+            <input className= "hidden" type="text" id="hiddenField2" name="hiddenField2" value={formData.hiddenField2} onChange={handleChange} />
             <Button
               gradientDuoTone='purpleToPink'
               type='submit'
