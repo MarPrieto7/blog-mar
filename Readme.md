@@ -12,7 +12,11 @@ Proyecto de un Blog de Arte 👩🏼‍🎨🖌️, donde muestro mis trabajos d
 
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Test](#test)
+- [Auditoría](#auditoria)
 - [Desarrolladores](#desarrolladores)
+- [Tecnologías utilizadas](#tecnologia)
+- [Metodología](#metodología)
 - [Licencia](#licencia)
 
 ## Estado del Proyecto
@@ -95,6 +99,18 @@ Para desarrollar el blog instalé las siguientes dependencias:
 
 Puedes navegar por la web, para visualizar los artíulos/ post que estan incluidos en el blog, pero sin registrarte y logarte, no vas a poder escribir comentarios ni LIkes en los post. Si precisas tener la pagina en modo oscuro, puedes darle al botón con el logo de sol del header y reducimos la huella de carbono para el planeta 🥰 (Green Digital Skills). 
 
+## Test 
+
+Se han realizado test para Home (2), Footer, Postpage, Search, y SignIn con resultado Passed. 
+
+ <a href="https://www.canva.com/design/DAGDmlVjwkU/4jZN3dzQHIob9pue9YbVBQ/edit?utm_content=DAGDmlVjwkU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Ver resultados del tests</a> </br>
+
+ ## Auditoría
+
+ Se ha efectuado una <a href="https://drive.google.com/file/d/1XqoLHu3UxOvuPeu4fWhYfYrx5xKVlGxO/view?usp=sharing">Auditoría</a> de Ciberseguridad para la web. En ella se ha analizado, tanto la estructura de los archivos, asi como las vulnerabilidades y la seguridad que tiene la web en desarrollo. 
+
+ Se aporta informe con resultados de vulnerabilidades del programa <a href="https://drive.google.com/file/d/1m5hKxlXYMixwwjTKqzmkh0zPYrUF5F8E/view?usp=sharing">OWASP ZAP</a>
+
 ## Créditos
 
 ### Desarrolladora:
@@ -104,19 +120,18 @@ Puedes navegar por la web, para visualizar los artíulos/ post que estan incluid
 
 ## Tecnologías utilizadas
 
-![HTML5](https://img.shields.io/badge/HTML-5-green) 
-![CSS3](https://img.shields.io/badge/CSS-3-blue) 
-![JavaScriptES6](https://img.shields.io/badge/JavaScript-ES6-orange) 
-![Json](https://img.shields.io/badge/Json-purple)
-![React](https://img.shields.io/badge/React%20-%2018.1%20-%20yellow)
-![Node](https://img.shields.io/badge/Nodejs-v20-black)
-![MongoDB](https://img.shields.io/badge/MongoDB-v7-02E12E)
-<br>
+- HTML5
+- CSS3
+- JavaScriptES6
+- React
+- Node Y Express
 - Tailwindcss
-
+- MongoDB Atlas
+- Firebase
 
 
 ## Metodologías Ágiles
+
 - <a href="https://trello.com/invite/b/5NHxzk9O/ATTI9a0faced8315a0d06eb5c07215858453DC4CA1E2/proyecto-prefinal-todo-list"> Trello </a> </br> 
 - <a href="https://www.figma.com/file/YHMOeiH9MpiViY9iGK4o4g/BLOG_Mar-con-Art?type=design&node-id=4%3A3&mode=design&t=wlI0nDrb7GGJOhy6-1"> Figma </a> </br>
 - <a href="https://github.com/MarPrieto7/blog-mar">GitHub</a> </br>
@@ -129,8 +144,3 @@ Este proyecto está bajo la Licencia [CCO](LICENSE).
 
 Las fuentes utilizadas en este proyecto estan sujetas a licencia SIL con Copyright &copy; 2014, Indian Type Foundry (info@indiantypefoundry.com)
 
-## Test 
-
-Se han realizado test para Home (2), Footer, Postpage, Search, y SignIn con resultado Passed. 
-
- <a href="https://www.canva.com/design/DAGDmlVjwkU/4jZN3dzQHIob9pue9YbVBQ/edit?utm_content=DAGDmlVjwkU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Ver resultados</a> </br>
