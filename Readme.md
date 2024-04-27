@@ -2,7 +2,9 @@
 
 ![imagen Home](./client/src/assets/MainScreen.png)
 
-Proyecto de un Blog de Arte 👩🏼‍🎨🖌️, dond muestro mis trabajos de arte mediante post. En este blog, los usuarios pueden acceder para visionar los post, poner comentarios y dar like a aquellos que les gusten. POr otro lado, pueden modificar su comentario, quitar el like, pueden modificar su perfil, pero no elimnarlo. Por otro lado el blog, tiene un titular principal que es el owner del blog, es el unico que puede colgar post, ampliarlo como articulos, editar, eliminar los comentarios así como cuentas de usuarios. Disfruta de la experiencia...y si te gustan dale 👍🏼. 
+Proyecto de un Blog de Arte 👩🏼‍🎨🖌️, donde muestro mis trabajos de arte mediante post (algunos trabajos hechos en 2 horas referidos a colección verano, Navidad). En este blog, los usuarios pueden acceder para visionar los post, deben darse de alta para poner comentarios y dar like a aquellos que les gusten, además, pueden modificar su comentario, quitar el like, pueden modificar su perfil, pero no elimnarlo. Por otro lado el blog, tiene un titular principal que es el owner del blog y es el unico que puede colgar post, ampliarlo como articulos, editar, eliminar los comentarios así como cuentas de usuarios. Disfruta de la experiencia...y si te gustan dale 👍🏼. 
+
+## Logo del Owner de la web
 
 ![imagen del logo](./client/src/assets/LogoMarArt.jpeg)
 
@@ -44,6 +46,7 @@ Para desarrollar el blog instalé las siguientes dependencias:
     👓 npm i flowbite-react 
 
     👓 npm install @reduxjs/toolkit react-redux
+
     👓 npm i redux -persit
 
     👓 npm install -- save-react-circular-progressbar
@@ -128,6 +131,6 @@ Las fuentes utilizadas en este proyecto estan sujetas a licencia SIL con Copyrig
 
 ## Test 
 
-Se han hecho varios test para el frontend para Home (2), Footer, Postpage, Search, y SignIn con resultado Passed. 
+Se han realizado test para Home (2), Footer, Postpage, Search, y SignIn con resultado Passed. 
 
  <a href="https://www.canva.com/design/DAGDmlVjwkU/4jZN3dzQHIob9pue9YbVBQ/edit?utm_content=DAGDmlVjwkU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Ver resultados</a> </br>
