@@ -103,7 +103,7 @@ Se han realizado test para Home (2), Footer, Postpage, Search, y SignIn con resu
 
  ## Auditoría
 
- Se ha efectuado una <a href="https://drive.google.com/file/d/1KLuJj2ap6pW0T6cN_1hkUi9_aagF7TyB/view?usp=sharing">Auditoría</a> de Ciberseguridad para la web. En ella se ha analizado, tanto la estructura de los archivos, asi como las vulnerabilidades y la seguridad que tiene la web en desarrollo. 
+ Se ha efectuado una <a href="https://drive.google.com/file/d/1KLuJj2ap6pW0T6cN_1hkUi9_aagF7TyB/view?usp=sharing">Auditoría</a> de Ciberseguridad para la web. En ella se ha analizado, tanto la estructura de los archivos, asi como las vulnerabilidades y la seguridad que tiene la web en desarrollo. Como nota adicional, se han incluido dos campos ocultos en el formulario en el caso de que un bot quiere conectar atraves del formulario y adicionalmente se ha utilizado la librería express-rate limnit para limitar el numero de peticiones aceptadas por IP. 
 
  Se aporta informe con resultados de vulnerabilidades del programa <a href="https://drive.google.com/file/d/1m5hKxlXYMixwwjTKqzmkh0zPYrUF5F8E/view?usp=sharing">OWASP ZAP</a>
 
