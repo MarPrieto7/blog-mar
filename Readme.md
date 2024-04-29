@@ -82,11 +82,7 @@ Para desarrollar el blog instalé las siguientes dependencias:
 
     👓 npm i express
 
-    👓 node api/index.js
-
     👓 npm i nodemon
-
-    👓 npm run dev
 
     👓 npm i jsonwebtoken
 
