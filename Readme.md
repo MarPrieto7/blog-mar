@@ -143,5 +143,5 @@ Las fuentes utilizadas en este proyecto estan sujetas a licencia SIL con Copyrig
 ## Desplegado
 
 Se ha desplegado el blog en el siguiente enlace:
--<a href="https://blog-mar.onrender.com/">blog</a>
+<a href="https://blog-mar.onrender.com/">blog Mar con Art</a>
 
