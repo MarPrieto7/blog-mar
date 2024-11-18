@@ -140,3 +140,8 @@ Este proyecto está bajo la Licencia [CCO](LICENSE).
 
 Las fuentes utilizadas en este proyecto estan sujetas a licencia SIL con Copyright &copy; 2014, Indian Type Foundry (info@indiantypefoundry.com)
 
+## Desplegado
+
+Se ha desplegado el blog en el siguiente enlace:
+-<a href="https://blog-mar.onrender.com/">blog</a>
+
